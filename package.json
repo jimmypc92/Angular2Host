@@ -1,0 +1,28 @@
+{
+  "name": "Angular2Host",
+  "version": "1.0.0",
+  "description": "Server tailored for hosting Angular 2 applications",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "morgan": "^1.7.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.4",
+    "@types/typescript": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "Jimmy Campbell",
+  "license": "MIT"
+}
